@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /yahoo
-pipenv run python3.9 run_service.py
+pipenv run uvicorn run_service:app --host 0.0.0.0 --port 8000
