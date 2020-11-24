@@ -31,6 +31,14 @@ Set
 ```
 run.sh  
 ```
+Enpoints:
+- GET ​/historical​/{company}
+- GET /news/{company}
+More information: http://host:port/docs#/
+Both enpoints support dates interval, parameteres start_date and end_date (format YYYY-MM-DD)
 
+```
+http://127.0.0.1:8000/historical/zuo?start_date=2020-11-15&end_date=2020-11-20
+```
   
 
